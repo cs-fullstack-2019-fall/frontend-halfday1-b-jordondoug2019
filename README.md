@@ -1,3 +1,16 @@
+### GRADED 20.5/24: See comments below and ask for clarification as needed.
+Overall a good effort, but see notes below:
+
+* You used HTML table for much of your layout and *not* CSS grid :-(
+
+* Always displays the text 'winner' as opposed to displaying which player is in the lead. You did use different colors for the 2 players so logic clearly there, just a bug in your message display.
+
+* Does not handle when players are tied (same score)
+
+* Your grid also needs some attention:
+  - You specified 4 rows, but only use 3 in your grid-area.
+  - Your 'Made by CodeCrew' message moves up and down on each click/score.
+
 # frontend-halfDay1_b
 
 ### Button Clicking Game
